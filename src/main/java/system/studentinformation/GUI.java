@@ -310,7 +310,7 @@ public class GUI extends javax.swing.JFrame {
             model.setValueAt(StudentIDTF.getText(), i, 0);
             model.setValueAt(FirstNameTF.getText(), i, 1);
             model.setValueAt(LastNameTF.getText(), i, 2);
-            model.setValueAt(CourseTF.getText(), 1, 3);
+            model.setValueAt(CourseTF.getText(), i, 3);
         } else {
             JOptionPane.showMessageDialog(null, "Error");
         }
